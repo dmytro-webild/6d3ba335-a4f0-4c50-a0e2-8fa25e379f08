@@ -1,0 +1,10 @@
+src/components/Layout.tsx
+src/components/sections/about/AboutParticleRow.tsx
+src/components/sections/contact/ContactSplitCell.tsx
+src/components/sections/faq/FaqCellRows.tsx
+src/components/sections/features/ServicesDotCells.tsx
+src/components/sections/footer/FooterDashedColumns.tsx
+src/components/sections/hero/HeroDotField.tsx
+src/components/sections/metrics/MetricsGrowFrame.tsx
+src/components/sections/testimonial/TestimonialHalftoneLead.tsx
+src/pages/HomePage.tsx
