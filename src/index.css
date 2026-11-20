@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Syne:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Geist:wght@400;500;600;700&family=Lexend:wght@400;500;600;700&family=Figtree:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Syne:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Geist:wght@400;500;600;700&family=Lexend:wght@400;500;600;700&family=Figtree:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 @import "./styles/animations.css";
 @import "./styles/masks.css";
@@ -37,8 +37,8 @@
   --input: #333333;
   --ring: var(--primary-cta);
 
-  --font-heading: "Lexend", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-body: "Figtree", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-heading: "Space Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-body: "Inter Tight", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-label: "Geist Mono", ui-monospace, Menlo, monospace;
   --heading-weight: 500;
   --heading-tracking: -0.03em;
@@ -122,14 +122,14 @@
     margin: 0;
     background-color: var(--background);
     color: var(--foreground);
-    font-family: "Figtree", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Inter Tight", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     letter-spacing: -0.01em;
     min-height: 100vh;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Lexend", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Space Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: var(--heading-weight);
     letter-spacing: var(--heading-tracking);
     line-height: var(--heading-leading);
